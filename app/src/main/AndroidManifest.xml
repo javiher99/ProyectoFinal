@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rincondelvergeles">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SeleccionarMesa"
+            android:label=""
+            android:screenOrientation="locked"
+            android:parentActivityName=".FacturasActivity"></activity>
+        <activity
+            android:name=".HistorialActivity"
+            android:label=""
+            android:screenOrientation="locked"
+            android:theme="@style/AppThemePrincipal.NoActionBar"
+            android:parentActivityName=".FacturasActivity"/>
+        <activity
+            android:name=".ProductosActivity"
+            android:label="@string/productosAct"
+            android:screenOrientation="locked"
+            android:parentActivityName=".ComandasActivity"/>
+        <activity
+            android:name=".ComandasActivity"
+            android:label=""
+            android:parentActivityName=".FacturasActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FacturasActivity"
+            android:label=""
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mailto"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

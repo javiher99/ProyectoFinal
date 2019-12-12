@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">RinconDelVergeles</string>
+    <string name="btLogin">Iniciar sesión</string>
+    <string name="etUsuario">Nombre del Empleado</string>
+    <string name="etContraseña">Contraseña</string>
+    <string name="tvCopyright">© 1999-2019 Rincon del Vergeles Todos los derechos reservados.</string>
+    <string name="info">Acerca de</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_facturas">FacturasActivity</string>
+    <string name="title_activity_comandas">ComandasActivity</string>
+    <string name="title_activity_mesas">Crear factura</string>
+    <string name="tvEligeMesa">Selecciona la mesa donde se creará la factura:</string>
+    <string name="productosAct">Productos</string>
+
+    <string name="tvTituloFacturas">FACTURAS</string>
+
+
+    <string name="tvTituloIDFactura">Factura</string>
+    <string name="tvTituloIDMesa">Mesa</string>
+    <string name="tvTituloTotalFactura">Total:</string>
+
+    <string name="tvTituloProductoComanda">Producto</string>
+    <string name="tvTituloUnidadesComanda">Unidades</string>
+    <string name="tvTituloTotalComanda">Total:</string>
+    <string name="tvTituloEntreegado">Entregado</string>
+
+    <string name="tvDestino">Destino</string>
+    <string name="tvPrecioUnidad">Precio ud.</string>
+
+    <string name="tvComandasLateral">COMANDAS</string>
+    <string name="tvFacturasLateral">FACTURAS</string>
+
+    <string name="historial">historial</string>
+    <string name="tvHistorialLateral">HISTORIAL</string>
+    <string name="title_activity_historial">HistorialActivity</string>
+
+    <string name="tvTituloHoraApertura">Hora inicio</string>
+    <string name="tvTituloHoraCierre">Hora cierre</string>
+    <string name="tvTituloTotal">Total</string>
+    <string name="tvTituloIdEmpleadoInicio">Id. Empleado inicio</string>
+    <string name="tvTituloIdEmpleadoFinal">Id. Empleado final</string>
+    <string name="cerrar_factura">Cerrar factura</string>
+    <string name="imprimir_factura_menu">Imprimir factura</string>
+    <string name="enviar_por_correo">Enviar factura por correo</string>
+    <string name="tvTotal">Total:</string>
+    <string name="bebidas">Bebidas</string>
+    <string name="carnes">Carnes</string>
+    <string name="no">No</string>
+    <string name="si">Sí</string>
+    <string name="num">Núm.</string>
+    <string name="factura">factura</string>
+    <string name="facturaNum">Factura núm.</string>
+    <string name="euro">€</string>
+    <string name="totalDialog">Total:</string>
+    <string name="creandoFactura">Creando nueva factura...</string>
+    <string name="zero">0</string>
+    <string name="none">N/A</string>
+    <string name="facturaCreada">Factura creada correctamente</string>
+    <string name="facturaNoCreada">No se ha podido crear la factura</string>
+    <string name="creandoComanda">Creando comanda...</string>
+    <string name="crearNuevaComandaTit">Crear una nueva comanda</string>
+    <string name="aniadir">¿Añadir \'</string>
+    <string name="aLaFactura">\' a la factura?</string>
+    <string name="comandaCreada">Comanda creada correctamente</string>
+    <string name="comandaNoCreada">No se ha podido crear la comanda</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="working">Estamos trabajando :)</string>
+    <string name="unidades">Unidades</string>
+    <string name="selectUnidades">Seleccione el número</string>
+    <string name="cargandoComandas">Cargando comandas...</string>
+    <string name="packageName">com.example.rincondelvergeles</string>
+    <string name="id">id</string>
+    <string name="idFactura">idFactura</string>
+    <string name="idEmp">idEmp</string>
+    <string name="toolbarTitle">Factura</string>
+    <string name="askClosing">¿Cerrar factura?</string>
+    <string name="borrandoFactura">Borrando factura...</string>
+    <string name="facturaBorrada">Factura borrada correctamente</string>
+    <string name="comandasDeLaFactura">Comandas de la factura</string>
+    <string name="unidadesComa">unidades,</string>
+    <string name="mailto">mailto:</string>
+    <string name="mandarCorreo">Mandar correo...</string>
+    <string name="noneClients">No tiene clientes de correo instalados</string>
+    <string name="document">Document</string>
+    <string name="cargandoFacturas">Cargando facturas...</string>
+    <string name="nombre">nombre</string>
+    <string name="saludo">Hola</string>
+    <string name="filtering">Filtrando...</string>
+    <string name="filtrarHoraMinuto">Filtrar por hora y minuto:</string>
+    <string name="cargandoHistorial">Cargando historial de facturas...</string>
+    <string name="cargandoEmpleados">Cargando datos de los empleados...</string>
+    <string name="nameRequired">Nombre de Usuario requerido</string>
+    <string name="passRequired">Contraseña requerida</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="notCorrectPass">La contraseña no es correcta</string>
+    <string name="nonExistingUser">El usuario no existe</string>
+    <string name="empty">El campo no se puede dejar vacío</string>
+    <string name="cargandoProductos">Cargando productos...</string>
+    <string name="cargandoMesas">Buscando mesas disponibles...</string>
+</resources>
